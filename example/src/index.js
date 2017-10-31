@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDom from "react-dom";
 import AvatarCropper from "../../lib";
+import createReactClass from 'create-react-class';
 
-var App = React.createClass({
+var App = createReactClass({
   getInitialState: function() {
     return {
       cropperOpen: false,
@@ -55,7 +56,7 @@ var App = React.createClass({
   }
 });
 
-var FileUpload = React.createClass({
+var FileUpload = createReactClass({
 
   handleFile: function(e) {
     var reader = new FileReader();
