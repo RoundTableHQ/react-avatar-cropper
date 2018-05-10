@@ -18657,7 +18657,7 @@
 	})(_react2["default"].Component);
 
 	Cropper.propTypes = {
-	  image: _react2["default"].PropTypes.string.isRequired,
+	  image: _propTypes2["default"].string.isRequired,
 	  width: numberableType,
 	  height: numberableType,
 	  zoom: numberableType
